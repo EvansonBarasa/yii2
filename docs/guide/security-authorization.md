@@ -487,3 +487,6 @@ Now if you perform an access check, both of the `admin` and `author` roles will 
 the rules associated with them. If the rule returns true, it means the role applies to the current user.
 Based on the above rule implementation, this means if the `group` value of a user is 1, the `admin` role
 would apply to the user; and if the `group` value is 2, the `author` role would apply.
+
+
+//The steps to confire the RBAC is not clear for a new user of yii 2.0, please expound stepwise, thanks.
